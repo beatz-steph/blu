@@ -5,11 +5,11 @@ export const navigationData: NavigationItem[] = [
   {
     text: "Dashboard",
     path: "dashboard",
-    Icon: <HomeFilled width={24} height={24} />,
+    Icon: <HomeFilled width={24} height={24} color="#fff" />,
   },
   {
     text: "Requests",
     path: "requests",
-    Icon: <MessageFilled width={24} height={24} />,
+    Icon: <MessageFilled width={24} height={24} color="#fff" />,
   },
 ];
