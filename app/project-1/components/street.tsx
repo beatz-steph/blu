@@ -1,6 +1,6 @@
 import React from "react";
 import TrafficLight from "./traffic_light";
-import { StreetState, TrafficLightActive } from "./types";
+import { StreetState, TrafficLightActive } from "../types";
 
 const Street = ({
   orientation = "horizontal",

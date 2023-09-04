@@ -1,8 +1,8 @@
 "use client";
 
-import Controls from "./controls";
+import Controls from "./components/controls";
 import useTrafficSystemModel from "./model";
-import Street from "./street";
+import Street from "./components/street";
 
 import "./styles.css";
 

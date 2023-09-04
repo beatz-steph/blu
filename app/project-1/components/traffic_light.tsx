@@ -1,4 +1,4 @@
-import { TrafficLightActive } from "./types";
+import { TrafficLightActive } from "../types";
 
 const TrafficLight = ({ active = "red" }: { active?: TrafficLightActive }) => {
   return (

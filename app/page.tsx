@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <Link href="/project-1">Project 1</Link>
-      <Link href="/project-2">Project 2</Link>
+      <Link href="/project-2/dashboard">Project 2</Link>
     </main>
   );
 }
