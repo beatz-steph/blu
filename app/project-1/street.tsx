@@ -10,9 +10,9 @@ const Street = ({
   state?: StreetState;
 }) => {
   const styleMap = {
-    vertical: "justify-between flex-col mx-auto p-[130px]",
+    vertical: "justify-between flex-col mx-auto p-[130px] bg-gray-700 z-10",
     horizontal:
-      "justify-between w-[100%] items-center mx-auto p-[130px] z-10 absolute h-[100vh]",
+      "justify-between w-[100%] items-center my-auto p-[130px]  absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] h-[10vh]  bg-gray-700",
   };
 
   const stateMAp: Record<StreetState, TrafficLightActive> = {
@@ -21,7 +21,7 @@ const Street = ({
     go: "green",
   };
   return (
-    <div className={`flex ${styleMap[orientation]}`}>
+    <div className={`flex ${styleMap[orientation]} `}>
       <TrafficLight active={stateMAp[state]} />
       <TrafficLight active={stateMAp[state]} />
     </div>
